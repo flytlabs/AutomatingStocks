@@ -1,10 +1,10 @@
 import tweepy
 def getTweets(userID, amnt):
 
-    consumer_key = "7Oc83swm0SOz3GTEwqWaVWxlg"
-    consumer_secret = "skqeAT7r21t9OH8iq0TsdmdrnUqMCbL1bg5dnzig5NG9NlhyuS"
-    access_token = "1274527723965288448-DNSJFc10vsHn7HyNDVxhGVRWONl97m"
-    access_token_secret = "qxoLpMlVeCsmLMzTwSlkvBGN7Al3zWLr2gqzi0GMLtyb3"
+    consumer_key = ""
+    consumer_secret = ""
+    access_token = "-DNSJFc10vsHn7HyNDVxhGVRWONl97m"
+    access_token_secret = ""
 
     auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(access_token, access_token_secret)
@@ -63,7 +63,7 @@ def countTickers(tickers):
     return dict
 
 # runtime
-nlist = ['RadioSilentPlay', 'SuperDuperInvst', 'AlexDelarge6553', 'MikeKnowsRunner', 'StockHighArmy']
+nlist = [] # users to sample from go here
 
 # special list
 slist = []
